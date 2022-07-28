@@ -1,22 +1,22 @@
-const nombre = 'Luis'
+const nombre = 'Luis';
 
-const apellido = 'Ibañez'
+const apellido = 'Ibañez';
 
-const estudiante = `${nombre} ${apellido}`
+const estudiante = `${nombre} ${apellido}`;
 
-const estudianteMayus = estudiante.toUpperCase()
+const estudianteMayus = estudiante.toUpperCase();
 
-const estudianteMinus = estudiante.toLowerCase()
+const estudianteMinus = estudiante.toLowerCase();
 
-const numeroDeLetrasEstudiante = estudiante.length
+const numeroDeLetrasEstudiante = estudiante.length;
 
-const ultimaLetraEstudiante = estudiante.charAt(0)
+const ultimaLetraEstudiante = estudiante.charAt(0);
 
-const primeraLetraEstudiante = estudiante.charAt(estudiante.length-1)
+const primeraLetraEstudiante = estudiante.charAt(estudiante.length-1);
 
-const eliminarEspacios = estudiante.replace(' ', '')
+const eliminarEspacios = estudiante.replace(' ', '');
 
-const verificacion = estudiante.includes(nombre)
+const verificacion = estudiante.includes(nombre);
 
 // logs
 
